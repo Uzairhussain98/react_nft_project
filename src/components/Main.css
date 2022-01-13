@@ -1,0 +1,62 @@
+.main {
+  max-height: 70vh;
+  color: #fff;
+}
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  margin-top: 20px;
+}
+.punkImage {
+  display: flex;
+  width: auto;
+  height: 60vh;
+}
+.punkDetails {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+}
+.punkDetails > h2 {
+  font-size: 70px;
+}
+.detailsContainer {
+  display: flex;
+  margin-left: 20px;
+  /* flex-direction: column;
+  justify-content: space-between; */
+  /* background-color: aquamarine; */
+  width: 100%;
+}
+.ownerImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.owner {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  align-items: center;
+  width: 950px;
+}
+.links > img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links > img:hover {
+  border: 2px solid yellow;
+  transition: 0.5 ease-in-out;
+}

@@ -1,0 +1,10 @@
+
+      
+       punkListData.length > 0 && (
+        <>
+        <Main punkListData={punkListData} selectedPunk={selectedPunk}/>
+        <PunkList punkListData={punkListData} setSelectedPunk={setSelectedPunk} 
+        />
+        </>
+       )
+     }
